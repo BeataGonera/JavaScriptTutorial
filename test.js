@@ -1,11 +1,14 @@
-var YouLikeMeat = false;
-var myNum = 10;
+var myAge = 21;
 
-if (myNum == 17){9
+if (myAge > 30){
 
-    document.write("myNum is equal to 10");
+    document.write("You are 30!");
 
-}else{
+}else if (myAge > 20){
 
-    document.write("myNum is not equal to 10");
+    document.write("You are 20!");
+
+}else if(myAge > 10){
+
+    document.write("You are 10!");
 }
