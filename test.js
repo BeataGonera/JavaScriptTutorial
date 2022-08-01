@@ -1,14 +1,10 @@
-var myAge = 21;
+var myAge = 35;
 
-if (myAge > 30){
+if(myAge < 18 || myAge > 30){
 
-    document.write("You are 30!");
+    document.write ("you can't go");
 
-}else if (myAge > 20){
-
-    document.write("You are 20!");
-
-}else if(myAge > 10){
-
-    document.write("You are 10!");
+} else
+{
+    document.write ("you can go");
 }
