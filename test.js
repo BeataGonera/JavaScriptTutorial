@@ -1,10 +1,9 @@
-var myAge = 35;
+var links = document.getElementsByTagName("a"); 
 
-if(myAge < 18 || myAge > 30){
+for(i = 1, i < links.length; i++;){
 
-    document.write ("you can't go");
-
-} else
-{
-    document.write ("you can go");
+    console.log("this is link number" + i);
+     
 }
+
+document.write("all links now looped");
