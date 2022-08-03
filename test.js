@@ -1,10 +1,14 @@
-var myArray = [];
+var newCar = new Object;
+newCar.speed = 50;
+newCar.driver = "Beata";
 
-myArray[0] = 25;
+newCar.drive = function()
+{
+    console.log("now driving");
+};
 
-var myArray2 = ["hi!", 3, true];
+newCar.drive();
 
-myArray2[1] = 4;
+var newCar2 = {speed: 40, driver:"John", drive: function(){console.log("now driving really fast");}};
 
-console.log(myArray2);
-
+newCar2.drive();
