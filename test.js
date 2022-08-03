@@ -1,10 +1,10 @@
-var str="Hello, world.";
+var myArray = [];
 
-var str2= str.slice(2,9);
+myArray[0] = 25;
 
-console.log(str2);
+var myArray2 = ["hi!", 3, true];
 
-var tags = "pork, chicken, veggie, salami, banana";
-var tagsArray = tags.split(",");
+myArray2[1] = 4;
 
-console.log(tagsArray);
+console.log(myArray2);
+
