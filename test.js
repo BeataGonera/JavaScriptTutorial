@@ -1,6 +1,4 @@
-var myString = 'I\'m a "fun" string';
+var string1 = "abc";
+var string2 = "ABC";
 
-if (myString.indexOf("ninja") === -1){
-
-    console.log("The word ninja does not exist");
-}
+console.log(string1.toLowerCase() === string2.toLowerCase());
