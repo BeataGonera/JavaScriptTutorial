@@ -1,11 +1,6 @@
-var a = 3;
-var b = 5;
+var myString = 'I\'m a "fun" string';
 
+if (myString.indexOf("ninja") === -1){
 
-if (isNaN(a)){
-    console.log("Not even a number, silly");
-}
-
-else{
-    console.log("meaning of life is" + (a+b));
+    console.log("The word ninja does not exist");
 }
