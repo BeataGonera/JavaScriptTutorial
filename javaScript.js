@@ -1,3 +1,5 @@
+function setUpEvents(){
+
 var content = document.getElementById("content");
 var clickHere = document.getElementById("click-here");
 
@@ -11,4 +13,14 @@ clickHere.onclick = function(){
     clickHere.innerHTML = "Show less";
 
 };
+};
 }
+
+window.onload = function(){
+
+    setUpEvents();
+
+}
+
+
+
