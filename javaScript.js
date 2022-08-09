@@ -1,26 +1,9 @@
-function setUpEvents(){
-
 var content = document.getElementById("content");
-var clickHere = document.getElementById("click-here");
 
-clickHere.onclick = function(){
-
-    if(content.className == "open"){
-        content.className = "";
-        clickHere.innerHTML = "Show more";
-    } else {
-    content.className = "open";
-    clickHere.innerHTML = "Show less";
-
+function showContent(){
+    content.className = "visible";
 };
-};
-}
 
-window.onload = function(){
-
-    setUpEvents();
-
-}
-
+setTimeout(showContent, 3000);
 
 
