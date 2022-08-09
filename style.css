@@ -1,0 +1,45 @@
+body{
+    background: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+}
+
+#content{
+    background: white;
+    margin: auto;
+    padding: 20px;
+    width: 400px;
+    overflow: hidden; 
+    max-height: 270px;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#click-here{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    height: 25px;
+    width: 150px;
+    background: rgb(114, 141, 239);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+   
+#content.open{
+    max-height: 1000px;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+
+
+
